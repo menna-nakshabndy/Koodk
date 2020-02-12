@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C3BE8A23F4352200DC6BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BE8923F4352200DC6BFA /* AppDelegate.swift */; };
+		22C3BE8C23F4352200DC6BFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BE8B23F4352200DC6BFA /* SceneDelegate.swift */; };
+		22C3BE8E23F4352200DC6BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BE8D23F4352200DC6BFA /* ViewController.swift */; };
+		22C3BE9123F4352200DC6BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C3BE8F23F4352200DC6BFA /* Main.storyboard */; };
+		22C3BE9323F4352500DC6BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C3BE9223F4352500DC6BFA /* Assets.xcassets */; };
+		22C3BE9623F4352500DC6BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C3BE9423F4352500DC6BFA /* LaunchScreen.storyboard */; };
+		22C3BEA123F4352500DC6BFA /* KoodkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BEA023F4352500DC6BFA /* KoodkTests.swift */; };
+		22C3BEAC23F4352500DC6BFA /* KoodkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BEAB23F4352500DC6BFA /* KoodkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C3BE9D23F4352500DC6BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C3BE7E23F4352200DC6BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C3BE8523F4352200DC6BFA;
+			remoteInfo = Koodk;
+		};
+		22C3BEA823F4352500DC6BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C3BE7E23F4352200DC6BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C3BE8523F4352200DC6BFA;
+			remoteInfo = Koodk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C3BE8623F4352200DC6BFA /* Koodk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koodk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3BE8923F4352200DC6BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22C3BE8B23F4352200DC6BFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22C3BE8D23F4352200DC6BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22C3BE9023F4352200DC6BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C3BE9223F4352500DC6BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C3BE9523F4352500DC6BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C3BE9723F4352500DC6BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C3BE9C23F4352500DC6BFA /* KoodkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoodkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3BEA023F4352500DC6BFA /* KoodkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoodkTests.swift; sourceTree = "<group>"; };
+		22C3BEA223F4352500DC6BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C3BEA723F4352500DC6BFA /* KoodkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoodkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3BEAB23F4352500DC6BFA /* KoodkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoodkUITests.swift; sourceTree = "<group>"; };
+		22C3BEAD23F4352500DC6BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C3BE8323F4352200DC6BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BE9923F4352500DC6BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BEA423F4352500DC6BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C3BE7D23F4352200DC6BFA = {
+			isa = PBXGroup;
+			children = (
+				22C3BE8823F4352200DC6BFA /* Koodk */,
+				22C3BE9F23F4352500DC6BFA /* KoodkTests */,
+				22C3BEAA23F4352500DC6BFA /* KoodkUITests */,
+				22C3BE8723F4352200DC6BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C3BE8723F4352200DC6BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C3BE8623F4352200DC6BFA /* Koodk.app */,
+				22C3BE9C23F4352500DC6BFA /* KoodkTests.xctest */,
+				22C3BEA723F4352500DC6BFA /* KoodkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C3BE8823F4352200DC6BFA /* Koodk */ = {
+			isa = PBXGroup;
+			children = (
+				22C3BE8923F4352200DC6BFA /* AppDelegate.swift */,
+				22C3BE8B23F4352200DC6BFA /* SceneDelegate.swift */,
+				22C3BE8D23F4352200DC6BFA /* ViewController.swift */,
+				22C3BE8F23F4352200DC6BFA /* Main.storyboard */,
+				22C3BE9223F4352500DC6BFA /* Assets.xcassets */,
+				22C3BE9423F4352500DC6BFA /* LaunchScreen.storyboard */,
+				22C3BE9723F4352500DC6BFA /* Info.plist */,
+			);
+			path = Koodk;
+			sourceTree = "<group>";
+		};
+		22C3BE9F23F4352500DC6BFA /* KoodkTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C3BEA023F4352500DC6BFA /* KoodkTests.swift */,
+				22C3BEA223F4352500DC6BFA /* Info.plist */,
+			);
+			path = KoodkTests;
+			sourceTree = "<group>";
+		};
+		22C3BEAA23F4352500DC6BFA /* KoodkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C3BEAB23F4352500DC6BFA /* KoodkUITests.swift */,
+				22C3BEAD23F4352500DC6BFA /* Info.plist */,
+			);
+			path = KoodkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C3BE8523F4352200DC6BFA /* Koodk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3BEB023F4352500DC6BFA /* Build configuration list for PBXNativeTarget "Koodk" */;
+			buildPhases = (
+				22C3BE8223F4352200DC6BFA /* Sources */,
+				22C3BE8323F4352200DC6BFA /* Frameworks */,
+				22C3BE8423F4352200DC6BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koodk;
+			productName = Koodk;
+			productReference = 22C3BE8623F4352200DC6BFA /* Koodk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C3BE9B23F4352500DC6BFA /* KoodkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3BEB323F4352500DC6BFA /* Build configuration list for PBXNativeTarget "KoodkTests" */;
+			buildPhases = (
+				22C3BE9823F4352500DC6BFA /* Sources */,
+				22C3BE9923F4352500DC6BFA /* Frameworks */,
+				22C3BE9A23F4352500DC6BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C3BE9E23F4352500DC6BFA /* PBXTargetDependency */,
+			);
+			name = KoodkTests;
+			productName = KoodkTests;
+			productReference = 22C3BE9C23F4352500DC6BFA /* KoodkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C3BEA623F4352500DC6BFA /* KoodkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3BEB623F4352500DC6BFA /* Build configuration list for PBXNativeTarget "KoodkUITests" */;
+			buildPhases = (
+				22C3BEA323F4352500DC6BFA /* Sources */,
+				22C3BEA423F4352500DC6BFA /* Frameworks */,
+				22C3BEA523F4352500DC6BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C3BEA923F4352500DC6BFA /* PBXTargetDependency */,
+			);
+			name = KoodkUITests;
+			productName = KoodkUITests;
+			productReference = 22C3BEA723F4352500DC6BFA /* KoodkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C3BE7E23F4352200DC6BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Menna;
+				TargetAttributes = {
+					22C3BE8523F4352200DC6BFA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					22C3BE9B23F4352500DC6BFA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 22C3BE8523F4352200DC6BFA;
+					};
+					22C3BEA623F4352500DC6BFA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 22C3BE8523F4352200DC6BFA;
+					};
+				};
+			};
+			buildConfigurationList = 22C3BE8123F4352200DC6BFA /* Build configuration list for PBXProject "Koodk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C3BE7D23F4352200DC6BFA;
+			productRefGroup = 22C3BE8723F4352200DC6BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C3BE8523F4352200DC6BFA /* Koodk */,
+				22C3BE9B23F4352500DC6BFA /* KoodkTests */,
+				22C3BEA623F4352500DC6BFA /* KoodkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C3BE8423F4352200DC6BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BE9623F4352500DC6BFA /* LaunchScreen.storyboard in Resources */,
+				22C3BE9323F4352500DC6BFA /* Assets.xcassets in Resources */,
+				22C3BE9123F4352200DC6BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BE9A23F4352500DC6BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BEA523F4352500DC6BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C3BE8223F4352200DC6BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BE8E23F4352200DC6BFA /* ViewController.swift in Sources */,
+				22C3BE8A23F4352200DC6BFA /* AppDelegate.swift in Sources */,
+				22C3BE8C23F4352200DC6BFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BE9823F4352500DC6BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BEA123F4352500DC6BFA /* KoodkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3BEA323F4352500DC6BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3BEAC23F4352500DC6BFA /* KoodkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C3BE9E23F4352500DC6BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C3BE8523F4352200DC6BFA /* Koodk */;
+			targetProxy = 22C3BE9D23F4352500DC6BFA /* PBXContainerItemProxy */;
+		};
+		22C3BEA923F4352500DC6BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C3BE8523F4352200DC6BFA /* Koodk */;
+			targetProxy = 22C3BEA823F4352500DC6BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C3BE8F23F4352200DC6BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C3BE9023F4352200DC6BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C3BE9423F4352500DC6BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C3BE9523F4352500DC6BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C3BEAE23F4352500DC6BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22C3BEAF23F4352500DC6BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C3BEB123F4352500DC6BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Koodk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.Koodk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C3BEB223F4352500DC6BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Koodk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.Koodk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22C3BEB423F4352500DC6BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoodkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.KoodkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koodk.app/Koodk";
+			};
+			name = Debug;
+		};
+		22C3BEB523F4352500DC6BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoodkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.KoodkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koodk.app/Koodk";
+			};
+			name = Release;
+		};
+		22C3BEB723F4352500DC6BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoodkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.KoodkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koodk;
+			};
+			name = Debug;
+		};
+		22C3BEB823F4352500DC6BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoodkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = menna.KoodkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koodk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C3BE8123F4352200DC6BFA /* Build configuration list for PBXProject "Koodk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3BEAE23F4352500DC6BFA /* Debug */,
+				22C3BEAF23F4352500DC6BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3BEB023F4352500DC6BFA /* Build configuration list for PBXNativeTarget "Koodk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3BEB123F4352500DC6BFA /* Debug */,
+				22C3BEB223F4352500DC6BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3BEB323F4352500DC6BFA /* Build configuration list for PBXNativeTarget "KoodkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3BEB423F4352500DC6BFA /* Debug */,
+				22C3BEB523F4352500DC6BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3BEB623F4352500DC6BFA /* Build configuration list for PBXNativeTarget "KoodkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3BEB723F4352500DC6BFA /* Debug */,
+				22C3BEB823F4352500DC6BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C3BE7E23F4352200DC6BFA /* Project object */;
+}
